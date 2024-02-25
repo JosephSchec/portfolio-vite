@@ -1,0 +1,6 @@
+export * from "./Projects"
+export * from "./Card"
+export * from "./Connect"
+export * from "./Navbar"
+export * from "./Skills"
+export * from "./Tldr"

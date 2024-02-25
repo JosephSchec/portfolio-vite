@@ -1,0 +1,44 @@
+
+.project{
+@apply 
+    grid
+    items-center
+    justify-items-center 
+    
+}
+.readMe{
+    @apply
+    hidden md:block 
+    text-black text-base font-bold
+    bg-indigo-200 
+    m-3
+    p-2
+    opacity-80
+    h-60
+    overflow-auto
+    rounded-xl
+    border-2
+    border-blue-400
+    shadow-md shadow-indigo-500/50
+    w-10/12
+}
+.project a ,.project button {
+   @apply 
+   p-1.5 m-1 
+   rounded-lg 
+}
+.links{
+    @apply flex;
+}
+.siteButton{
+    @apply 
+    bg-black  hover:bg-slate-300 
+    text-blue-600 
+
+   
+}
+.github{
+    @apply 
+    bg-zinc-600 hover:invert
+    text-yellow-400 
+}

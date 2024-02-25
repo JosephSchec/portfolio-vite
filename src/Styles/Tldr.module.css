@@ -1,0 +1,25 @@
+.marquee {
+    @apply 
+    hidden 
+    md:block
+    relative
+    w-10/12
+    max-w-full
+    h-24
+    overflow-hidden;
+  }
+  
+  .track {
+   @apply 
+   absolute
+    flex
+    items-center;
+    
+  }
+  .track h1{
+   @apply 
+   text-lg
+   bg-slate-200
+   text-violet-500
+   font-bold
+  }

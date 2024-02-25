@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+	html,
+	body {
+		@apply bg-gradient-to-b from-violet-400 via-blue-300 to-violet-400 bg-no-repeat scroll-smooth;
+	}
+
+	*::-webkit-scrollbar {
+		width: 12px;
+	}
+	*::-webkit-scrollbar-track {
+		@apply bg-blue-300;
+	}
+
+	*::-webkit-scrollbar-thumb {
+		@apply bg-zinc-400 rounded-lg;
+	}
+	.newSection {
+		@apply flex 
+    items-center 
+    flex-col
+    opacity-0
+    ease-in duration-300;
+	}
+	.newSection > h1 {
+		@apply w-8/12 md:w-7/12
+    mt-10 p-2
+    text-center
+    text-4xl 
+    text-blue-700
+    font-bold 
+    underline 
+    bg-cyan-300/50
+    rounded-lg;
+	}
+
+	.clickable {
+		@apply cursor-pointer;
+	}
+}

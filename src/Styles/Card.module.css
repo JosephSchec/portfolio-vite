@@ -1,0 +1,24 @@
+.card {
+    @apply flex flex-col items-center m-auto w-full
+}
+
+.card>figure {
+    @apply bg-slate-100 rounded-2xl
+}
+
+.about {
+    @apply p-2 m-auto bg-slate-900/75 text-lg w-8/12 rounded-xl min-w-fit max-w-fit;
+
+    font-family: 'Fira Code', monospace;
+}
+
+.about p span {
+    display: block;
+    overflow: hidden;
+    font-size: 1.1rem;
+
+}
+
+.about>p {
+    @apply font-bold text-lg text-teal-200
+}

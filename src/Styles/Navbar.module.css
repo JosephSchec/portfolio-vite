@@ -1,0 +1,61 @@
+
+.topCenter{
+    @apply flex justify-center sticky top-0 z-50
+}
+.details{
+@apply  
+  rounded-xl 
+  shadow-xl
+  w-full 
+  md:grid 
+  md:grid-cols-2 
+}
+.initials{
+    @apply self-center m-2 cursor-pointer w-max hidden md:block
+}
+.initials:hover{
+  -webkit-animation: mymove 1s infinite; 
+    animation: mymove 3s infinite;
+}
+.list{
+    @apply flex justify-center md:justify-end
+}
+
+.link{
+  @apply  
+  mx-2 p-1
+  flex  
+  text-xl md:text-2xl 
+  items-center;
+}
+.link p{
+  @apply  
+  text-sky-500
+  bg-violet-100
+  rounded-xl
+  shadow
+  shadow-slate-500
+  px-2
+  py-1 
+  font-bold  
+  hover:text-violet-100
+  hover:bg-sky-500
+}
+.link svg{
+  @apply 
+  text-slate-200 
+  m-1 
+  hidden 
+  md:inline-block;
+}
+.link:last-child {
+  @apply
+  hidden
+  md:flex
+}
+
+@keyframes mymove {
+  from   {    transform: rotateY(0deg);}
+  to { transform: rotateY(360deg);
+
+}}

@@ -1,0 +1,19 @@
+.list{
+    @apply 
+     grid
+    lg:grid-cols-3
+    m-2
+    w-1/3
+    justify-items-center
+    h-max 
+    items-center
+}
+.list li{
+    @apply
+    bg-gray-300
+    p-3
+    rounded-full
+    shadow-xl
+    mb-4
+    hover:bg-violet-500 
+}
